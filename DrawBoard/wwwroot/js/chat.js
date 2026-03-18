@@ -13,7 +13,7 @@ document.getElementById("message").addEventListener("keypress", function (event)
 
 
 function sendMessage() {
-    const userName = document.getElementById("userName").value.trim() || "Аноним";
+    const userName = document.getElementById("userName").value.trim() || "Секретный агент Фбр";
     const message = document.getElementById("message").value.trim();
 
     if (message === "") {
